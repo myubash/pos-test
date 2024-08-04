@@ -1,0 +1,32 @@
+.food-item {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.food-image {
+  display: block;
+  width: 100%; /* Adjust width as needed */
+  height: auto;
+  border-radius: 8px;
+}
+
+.food-details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.food-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.food-price {
+  font-size: 16px;
+  margin-left: 10px;
+}

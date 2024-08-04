@@ -1,0 +1,158 @@
+.app {
+    display: flex;
+}
+
+.sidebar-container {
+    min-height: 93vh;
+    background-color: grey;
+    position: sticky;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.sidebar-link {
+    padding: 10px
+}
+
+.sidebar-link:hover {
+    border-right: 5px solid dimgray;
+    background-color: gainsboro;
+}
+
+.sidebarIcon {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+
+.sidebarIcon1 {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.overflowTest {
+    color: black;
+    padding: 10px;
+    padding-top: 2px;
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+.produk {
+    color: black;
+    height: 150px;
+    overflow: auto;
+}
+
+.menuItem {
+    height: 4rem;
+}
+
+.menu {
+    height: 80vh;
+    color: black;
+    padding-top: 2px;
+    overflow: auto;
+}
+
+.checkoutOption {
+    overflow: auto;
+    color: black;
+    height: 80vh;
+    padding: 2px;
+}
+
+.itemListKitchen {
+    min-height: 75vh;
+}
+
+.listKitchen {
+    overflow: auto;
+    color: black;
+    height: 10vh;
+    padding: 2px;
+}
+
+.itemKitchen {
+    overflow: auto;
+    color: black;
+    height: 25vh;
+    padding: 2px;
+}
+
+.takeaway {
+    overflow: auto;
+    height: 70vh;
+    padding: 2px;
+}
+
+.textBack{
+    color: blue
+}
+
+.textBack:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+
+button:hover{
+    transition: 0.3s;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+button:active{
+    transition: 0s;
+    box-shadow: none;
+    transform: unset;
+}
+
+/* .headerBtn:hover{
+    all: revert;
+    box-shadow: none;
+    transform: unset;
+} */
+
+.tableBtn{
+    background-color: rgb(167, 190, 63);
+}
+
+.tableBtn:hover{
+    background-color: rgb(129, 128, 35);
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+    border-radius: 5px;
+}
+.checkoutBtn{
+    background-color: rgb(219, 173, 73) !important;
+}
+
+.checkoutBtn:hover{
+    background-color: rgb(185, 146, 61) !important;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(218, 216, 216);
+}
+
+.homeMenu:hover {
+    background-color: rgb(209, 205, 205);
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.homeMenu:active {
+    background-color: white;
+    box-shadow: unset;
+    transform: unset;
+}
