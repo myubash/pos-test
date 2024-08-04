@@ -6,7 +6,7 @@ import { Loading } from './components'
 
 import Header from './layout/Header'
 
-import Order from './components/OrderV2'
+import Order from './components/Order'
 
 import './style/sidebar.css'
 import './style/index.css'

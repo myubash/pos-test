@@ -4,7 +4,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import { delTableNum } from "../store/actions";
@@ -81,11 +80,6 @@ const Order = (props) => {
     setOpenDetail(true)
   };
 
-
-  const resetTable = () => {
-    delTableNum()
-  };
-
   return (
     <div className="app">
       <div className="sidebar-container">
@@ -102,12 +96,6 @@ const Order = (props) => {
       <div className="container">
         <RenderAllMenu />
       </div>
-      <Link to="/table" className="d-flex justify-content-end ">
-        <button className="btn btn-primary" onClick={resetTable}>
-          Back
-        </button>
-      </Link>
-      <div key="extra" style={{ height: 600 }}></div>
 
       {/* modal section */}
 
